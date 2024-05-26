@@ -1,0 +1,20 @@
+/* #818cf8 #7e22ce */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.svg {
+    width: 20px;
+}
+
+.t-profile-pic {
+    width: 50px;
+    border-radius: 40px;
+}
