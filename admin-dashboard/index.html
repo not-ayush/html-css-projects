@@ -4,11 +4,11 @@
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Dashboard</title>
   </head>
   <body>
     <div class="sidebar">
-      <div class="logo"><img class="svg" src="assets/svg/dashboard.svg" /><span> Dashboard</span></div>
+      <div class="logo"><img class="logo-svg" src="assets/svg/dashboard.svg" /><span> Dashboard</span></div>
       <div class="nav">
         <ul>
           <li><img class="svg" src="assets/svg/home.svg" /><span>Home</span></li>
@@ -19,25 +19,30 @@
           <li><img class="svg" src="assets/svg/communities.svg" /><span>Communities</span></li>
         </ul>
       </div>
+      <div class="options">
+        <ul>
+          <li><img class="svg" src="assets/svg/settings.svg" /><span>Settings</span></li>
+          <li><img class="svg" src="assets/svg/support.svg" /><span>Support</span></li>
+          <li><img class="svg" src="assets/svg/privacy.svg" /><span>Privacy</span></li>
+        </ul>
+      </div>
     </div>
-    <div class="options">
-      <ul>
-        <li><img class="svg" src="assets/svg/settings.svg" /><span>Settings</span></li>
-        <li><img class="svg" src="assets/svg/support.svg" /><span>Support</span></li>
-        <li><img class="svg" src="assets/svg/privacy.svg" /><span>Privacy</span></li>
-      </ul>
-    </div>
+
     <div class="header">
       <div class="prim-head">
-        <img class="head-icons svg" src="assets/svg/search.svg"/>
-        <div class="search-bar"></div>
-        <img class="head-icons svg" src="assets/svg/notif.svg"/>
-        <img src="assets/img/okabe.jpg" alt="" class="t-profile-pic" />
-        <div class="name">Okabe Rintarou</div>
+        <div class="head-left">
+          <img class="head-icons svg" src="assets/svg/search.svg" />
+          <div class="search-bar"></div>
+        </div>
+        <div class="head-right">
+          <img class="head-icons svg" src="assets/svg/notif.svg" />
+          <img src="assets/img/okabe.jpg" alt="" class="h-profile-pic" />
+          <div class="name">Okabe Rintarou</div>
+        </div>
       </div>
       <div class="sec-head">
-        <img src="" alt="" class="profile-large" />
         <div class="greeting">
+          <img src="assets/img/okabe.jpg" alt="" class="g-profile" />
           <div class="hello">El Psy Congroo,</div>
           <div class="user">Hououin Kyouma (@madScientist)</div>
         </div>
@@ -45,88 +50,88 @@
       </div>
     </div>
     <div class="main">
-      <div class="projects">
+      <div class="project-sec">
         <h1>Your Projects</h1>
-        <div class="card">
-          <h2>Bit Particle Gun</h2>
-          <p>A toy gun modified to act as a TV remote. However, only the Channel + button works.</p>
-          <div class="card-options">
-            <!-- add icons here -->
-            <ul>
-              <li><img src="assets/svg/star-plus.svg" class="svg" /></li>
-              <li><img src="assets/svg/eye-plus.svg" class="svg" /></li>
-              <li><img src="assets/svg/fork.svg" class="svg" /></li>
-            </ul>
+        <div class="projects">
+          <div class="card">
+            <h2>Bit Particle Gun</h2>
+            <p>A toy gun modified to act as a TV remote. However, only the Channel + button works.</p>
+            <div class="card-options">
+              <!-- add icons here -->
+              <ul>
+                <li><img src="assets/svg/star-plus.svg" class="svg" /></li>
+                <li><img src="assets/svg/eye-plus.svg" class="svg" /></li>
+                <li><img src="assets/svg/fork.svg" class="svg" /></li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <h2>Bamboo Helicam</h2>
-          <p>
-            A camera attached to a bamboo toy helicopter. It is able to record aerial footage, though the camera doesn't have a stabilizer, resulting
-            image will be constantly rotating.
-          </p>
-          <div class="card-options">
-            <!-- add icons here -->
-            <ul>
-              <li><img src="assets/svg/star-plus.svg" class="svg" /></li>
-              <li><img src="assets/svg/eye-plus.svg" class="svg" /></li>
-              <li><img src="assets/svg/fork.svg" class="svg" /></li>
-            </ul>
+          <div class="card">
+            <h2>Bamboo Helicam</h2>
+            <p>
+              A camera attached to a bamboo toy helicopter. It is able to record aerial footage, though the camera doesn't have a stabilizer,
+              resulting image will be constantly rotating.
+            </p>
+            <div class="card-options">
+              <!-- add icons here -->
+              <ul>
+                <li><img src="assets/svg/star-plus.svg" class="svg" /></li>
+                <li><img src="assets/svg/eye-plus.svg" class="svg" /></li>
+                <li><img src="assets/svg/fork.svg" class="svg" /></li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <h2>Could This Be Ora Ora!?</h2>
-          <p>A lie detector based on the sweat on someone's thumb, though its more of a sweat detector than anything else.</p>
-          <div class="card-options">
-            <!-- add icons here -->
-            <ul>
-              <li><img src="assets/svg/star-plus.svg" class="svg" /></li>
-              <li><img src="assets/svg/eye-plus.svg" class="svg" /></li>
-              <li><img src="assets/svg/fork.svg" class="svg" /></li>
-            </ul>
+          <div class="card">
+            <h2>Could This Be Ora Ora!?</h2>
+            <p>A lie detector based on the sweat on someone's thumb, though its more of a sweat detector than anything else.</p>
+            <div class="card-options">
+              <!-- add icons here -->
+              <ul>
+                <li><img src="assets/svg/star-plus.svg" class="svg" /></li>
+                <li><img src="assets/svg/eye-plus.svg" class="svg" /></li>
+                <li><img src="assets/svg/fork.svg" class="svg" /></li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <h2>Cyalume Saber</h2>
-          <p>
-            An imitation of one of the lightsabers from the popular in-universe movie franchise "Spark Wars". It can also produce fake blood for added
-            realism to the recreation of fights from the movies.
-          </p>
-          <div class="card-options">
-            <!-- add icons here -->
-            <ul>
-              <li><img src="assets/svg/star-plus.svg" class="svg" /></li>
-              <li><img src="assets/svg/eye-plus.svg" class="svg" /></li>
-              <li><img src="assets/svg/fork.svg" class="svg" /></li>
-            </ul>
+          <div class="card">
+            <h2>Cyalume Saber</h2>
+            <p>
+              An imitation of one of the lightsabers from the popular in-universe movie franchise "Spark Wars". It can also produce fake blood for
+              added realism to the recreation of fights from the movies.
+            </p>
+            <div class="card-options">
+              <!-- add icons here -->
+              <ul>
+                <li><img src="assets/svg/star-plus.svg" class="svg" /></li>
+                <li><img src="assets/svg/eye-plus.svg" class="svg" /></li>
+                <li><img src="assets/svg/fork.svg" class="svg" /></li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <h2>PhoneWave (name subject to change)</h2>
-          <p>
-            A modified microwave with a mobile phone attached. It can be commanded to warm food from a distance. 
-          </p>
-          <div class="card-options">
-            <ul>
-              <li><img src="assets/svg/star-plus.svg" class="svg" /></li>
-              <li><img src="assets/svg/eye-plus.svg" class="svg" /></li>
-              <li><img src="assets/svg/fork.svg" class="svg" /></li>
-            </ul>
+          <div class="card">
+            <h2>PhoneWave (name subject to change)</h2>
+            <p>A modified microwave with a mobile phone attached. It can be commanded to warm food from a distance.</p>
+            <div class="card-options">
+              <ul>
+                <li><img src="assets/svg/star-plus.svg" class="svg" /></li>
+                <li><img src="assets/svg/eye-plus.svg" class="svg" /></li>
+                <li><img src="assets/svg/fork.svg" class="svg" /></li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <h2>Homing Diva</h2>
-          <p>
-            A vinyl umbrella with a GPS attached. As the GPS is connected to the opening switch, it is only activated when the umbrella is open. Luka
-            points out that considering the cost of the GPS, it would be cheaper just to buy a new umbrella.
-          </p>
-          <div class="card-options">
-            <!-- add icons here -->
-            <ul>
-              <li><img src="assets/svg/star-plus.svg" class="svg" /></li>
-              <li><img src="assets/svg/eye-plus.svg" class="svg" /></li>
-              <li><img src="assets/svg/fork.svg" class="svg" /></li>
-            </ul>
+          <div class="card">
+            <h2>Homing Diva</h2>
+            <p>
+              A vinyl umbrella with a GPS attached. As the GPS is connected to the opening switch, it is only activated when the umbrella is open.
+              Luka points out that considering the cost of the GPS, it would be cheaper just to buy a new umbrella.
+            </p>
+            <div class="card-options">
+              <!-- add icons here -->
+              <ul>
+                <li><img src="assets/svg/star-plus.svg" class="svg" /></li>
+                <li><img src="assets/svg/eye-plus.svg" class="svg" /></li>
+                <li><img src="assets/svg/fork.svg" class="svg" /></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -136,18 +141,15 @@
           <div class="side-contain">
             <div class="ann-entry">
               <h3>Site Maintainence</h3>
-              <p>Aliquet lectus proin nibh nisl condimentum id venenatis a. Tristique senectus et netus et malesuada fames.</p>
+              <p>Aliquet lectus proin nibh nisl condimentum id venenatis a.</p>
             </div>
             <div class="ann-entry">
               <h3>Time Machine Search</h3>
-              <p>Dictum at tempor commodo ullamcorper. Fermentum leo vel orci porta. A diam sollicitudin tempor id.</p>
+              <p>Dictum at tempor commodo ullamcorper. Fermentum leo vel orci porta.</p>
             </div>
             <div class="ann-entry">
               <h3>World Line Graph</h3>
-              <p>
-                Dui id ornare arcu odio ut sem. Quis risus sed vulputate odio ut. Tellus pellentesque eu tincidunt tortor aliquam nulla. Mauris
-                rhoncus aenean vel elit scelerisque mauris.
-              </p>
+              <p>Dui id ornare arcu odio ut sem. Quis risus sed vulputate odio ut.</p>
             </div>
           </div>
         </div>
@@ -167,7 +169,7 @@
             <div class="t-user">
               <img class="t-profile-pic" src="assets/img/mayuri.jpg" alt="" />
               <div class="t-uname">@tutturuu</div>
-              <div class="t-preview">Mayuri Shiina ~</div>
+              <div class="t-preview">Mayuri Shiina</div>
             </div>
             <div class="t-user">
               <img class="t-profile-pic" src="assets/img/hacker.jpg" alt="" />
